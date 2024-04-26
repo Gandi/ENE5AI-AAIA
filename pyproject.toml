@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ENE5AI-AAIA"
+version = "0.1.0"
+description = "Project ENE5AI deliverable AAIA code"
+authors = ["sasa mladenovic <sasa.mladenovic@gandi.net>", "salma matoussi <salma.matoussi@gandi.net>", "antoine blin <antoine.blin@gandi.net>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = {url = "https://download.pytorch.org/whl/cpu/torch-2.2.1%2Bcpu-cp39-cp39-linux_x86_64.whl"}
+numpy = "^1.26.3"
+pandas = "^2.1.4"
+matplotlib = "^3.8.3"
+gymnasium = "^0.29.1"
+plotly = "^5.19.0"
+dash = "^2.15.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
